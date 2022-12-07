@@ -16,10 +16,10 @@ namespace CurrencyAPI.Models.Entities
         /// <summary>
         /// Represents the current exchange value
         /// </summary>
-        public double Value { get; set; }
+        public double Vallue { get; set; }
         /// <summary>
         /// Represents The <see cref="DateTime"/> of the last update
         /// </summary>
-        public DateTime CurrentDatTime { get; set; }
+        public DateTime CurrentDateTime { get; set; }
     }
 }

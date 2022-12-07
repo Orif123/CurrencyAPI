@@ -50,12 +50,12 @@ namespace CurrencyAPI.Services.UpdateCurrencies
                         currency = new Currency()
                         {
                             Name = fullName,
-                            CurrentDatTime = DateTime.Now,
+                            CurrentDateTime = DateTime.Now,
 
                             
                         };
                     }
-                    currency.Value = valueNumber;
+                    currency.Vallue = valueNumber;
                     await DBRepository.AddOrUpdateAsync(currency);
                     
                 }
