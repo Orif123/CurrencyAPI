@@ -20,7 +20,7 @@ namespace CurrencyAPI
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CurrencyTest_DBContext>(options => options.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=Currencies;Integrated Security=True"));
+            services.AddDbContext<CurrencyTest_DBContext>(options => options.UseSqlServer(@"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=CurrencyTest_DB;Integrated Security=True"));
             services.AddTransient<IUpdateCurrenciesService, UpdateCurrenciesService>();
             services.AddTransient<IGetAllCurrenciesService, GetAllCurrenciesService>();
             services.AddControllersWithViews();
