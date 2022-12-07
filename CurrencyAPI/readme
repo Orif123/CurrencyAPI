@@ -1,1 +1,4 @@
-
+This Project is an exchange currency converter.
+It is made using ASP.NET CORE MVC with Razor pages to simplify the data presentation. 
+I used https://api.exconvert.com as a real-time API and Entity Framework Core to save the data to MSSQL DB.
+Thanks a lot for the opportunity:)
